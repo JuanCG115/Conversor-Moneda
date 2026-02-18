@@ -15,13 +15,13 @@ Arquitectura del proyecto
 
 El proyecto está organizado siguiendo separación de responsabilidades:
 
-Main
+- Main
 Punto de entrada de la aplicación.
-Menu
+- Menu
 Maneja la interacción con el usuario.
-CurrencyService
+- CurrencyService
 Se encarga de consumir la API usando `HttpClient`.
-ExchangeResponse
+- ExchangeResponse
 Modela la respuesta JSON utilizando `record`.
 
 Conversiones disponibles
@@ -50,17 +50,24 @@ Crear una cuenta en ExchangeRate-API
 
 Configurar la variable de entorno
 
-El proyecto obtiene la clave mediante la siguiente lineas de codigo:
-System.getenv("API_KEY");
+- El proyecto obtiene la clave mediante la siguiente lineas de codigo:
 
-Abre CMD o PowerShell y ejecuta:
-setx API_KEY "Tu API KEY"
+      System.getenv("API_KEY");
 
-En MAC o Linux
-export API_KEY="Tu API KEY"
+- Abre CMD o PowerShell y ejecuta:
 
-Reinicia tu IDE o terminal
-Ya con tu variable de entorno configurada ejecuta Main.java
+      setx API_KEY "Tu API KEY"
 
-Clonar repositorio
-git clone https://github.com/TU_USUARIO/conversor-moneda-java.git
+- En MAC o Linux
+
+      export API_KEY="Tu API KEY"
+
+- Reinicia tu IDE o terminal
+
+Ya con tu variable de entorno configurada ejecuta:
+
+    Main.java
+
+- Para clonar repositorio
+
+      git clone https://github.com/TU_USUARIO/conversor-moneda-java.git
