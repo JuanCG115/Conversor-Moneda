@@ -14,11 +14,10 @@ Tecnologías utilizadas
 Vista previa
 
 <img width="353" height="324" alt="image" src="https://github.com/user-attachments/assets/e996dd09-1125-40da-a5ff-e804083579c2" />
+
 <img width="327" height="84" alt="image" src="https://github.com/user-attachments/assets/5b5fd2d6-c8b6-4296-84f9-e0690bf3d777" />
+
 <img width="359" height="90" alt="image" src="https://github.com/user-attachments/assets/571bf830-a91f-4863-bb05-d6dc12fa0410" />
-
-
-
 
 Arquitectura del proyecto
 
