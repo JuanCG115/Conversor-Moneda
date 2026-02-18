@@ -6,7 +6,17 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class CurrencyService {
-    private static final String API_KEY = "b20d29f49584639931b8b655";
+    private static final String API_KEY = System.getenv("API_KEY");
+
+    static {
+        if (API_KEY == null || API_KEY.isBlank()) {
+            throw new RuntimeException(
+                    "La variable de entorno API_KEY no está configurada.\n" +
+                            "Configúrala antes de ejecutar la aplicación."
+            );
+        }
+    }
+
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/";
 
     private final HttpClient client;
