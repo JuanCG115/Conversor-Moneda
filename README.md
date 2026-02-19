@@ -29,13 +29,13 @@ Arquitectura del proyecto
 
 El proyecto está organizado siguiendo separación de responsabilidades:
 
-- Main
+- Main:
 Punto de entrada de la aplicación.
-- Menu
+- Menu:
 Maneja la interacción con el usuario.
-- CurrencyService
+- CurrencyService:
 Se encarga de consumir la API usando `HttpClient`.
-- ExchangeResponse
+- ExchangeResponse:
 Modela la respuesta JSON utilizando `record`.
 
 Conversiones disponibles
